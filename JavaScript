@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+	<title>JavaScript</title>
+</head>
+<body>
+    <div class="conteudo">
+
+    <header>
+        <h1>
+        Aula JavaScript
+        </h1>
+    </header>
+    <div>
+        <h1 id="meuNome">Nome não declarado</p>
+        <h1 id="minhaIdade">Sem idade declarada</p>
+            <h1 id="somar">--</p>
+    <button>
+        Acessar
+    </button>
+    </div>
+    </div>
+</body>
+<script>
+    //Nome do usuario
+
+    //var nomeUsuario = prompt("Qual é seu nome?") 
+    //var idadeUsuario = prompt ("Qual é sua idade")
+    //alert("Olá " + nomeUsuario + ", Bem vindo") 
+    //confirm(nomeUsuario + " você tem " + idadeUsuario + " anos?")
+
+    // diminuir idade
+
+    //var idadeNova = Number (idadeUsuario.replace(",",".")) + 10
+
+    // diferença entre Number e String
+    // Number transforma string em numero.
+    // String transforma numero em texto.
+    // Float -> Numero com casa decimal, ex: 12,5.
+    // Int -> número inteiro, ex: 8.
+
+
+    // alert("Agora você tem: " + String(idadeNova) + " anos, haha.")
+
+    // let nome = nomeUsuario;
+    // let idade = idadeUsuario;
+    // colocar texto no html
+    //document.getElementById("meuNome").textContent = nome;
+    //document.getElementById("minhaIdade").textContent = idade;
+
+    //Calculadora
+    // (+) -> Adição
+    // (-) -> subtração
+    // (*) -> Multiplicação
+    // (/) -> Divisão
+    // (%) -> Módulo
+    // (**) -> potência; 2².
+
+    //alert ("Bem vindo a calculadora top das galáxias")
+    //var primeiroNumero = prompt("digite o primeiro número")
+    //var segundoNumero = prompt("digite o segundo número")
+
+    //var soma = Number (primeiroNumero) + Number (segundoNumero)
+    //alert("A soma resulta em: " + String(soma))
+    //let somar = soma;
+    //document.getElementById("somar").textContent = somar;
+    
+    var temperatura = parseInt(prompt("digite a temperatura em °C"))
+
+    var f = (temperatura * 9/5) + 32
+
+    alert("A temperatura " + temperatura + " em Fahrenheit é: " + f)
+
+ </script>
+</html>
