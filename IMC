@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Seu IMC é </h1><h1 id="somar" style="text-align: center; color: blue;">--</p>
+</body>
+<script>
+    // 2 - Dado de um usuario informe sua altura e peso calcule seu IMC
+    // Dica: Formula de IMC: peso/ altura2
+
+    var peso = parseInt(prompt("Qual é o seu peso?"));
+    var altura = prompt("E sua Altura?");
+
+    var IMC = peso/(altura**2)
+
+    alert("Seu IMC é " + IMC);
+
+    let somar = IMC;
+    document.getElementById("somar").textContent = somar;
+
+</script>
+</html>
